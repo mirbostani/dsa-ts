@@ -1,0 +1,14 @@
+{
+    "editor.rulers": [
+        80
+    ],
+    "editor.tabSize": 4,
+    "jslint.enable": false,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#006368",
+        "activityBar.foreground": "#ffffff",
+        "statusBar.background": "#006368",
+        "statusBar.foreground": "#ffffff",
+        "editorRuler.foreground": "#006368"
+    }
+}
