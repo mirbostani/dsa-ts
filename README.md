@@ -5,10 +5,10 @@ Data Structures and Algorithms in TypeScript.
 ## Table of Contents
 
 - Data Structure
-  - Linked List
+  - [Stack](./src/data_structure/stack/)
 - Searching Algorithms
-  - Linear Search
-  - Binary Search
+  - [Linear Search](./src/searching/linear_search/)
+  - [Binary Search](./src/searching/binary_search/)
   - Hashing
   - Interpolation Search
   - Exponential Search
@@ -18,7 +18,7 @@ Data Structures and Algorithms in TypeScript.
   - Breadth-First Search (BFS)
 - Sorting Algorithms
   - Bubble Sort
-  - Selection Srot
+  - Selection Sort
   - Insertion Sort
   - Merge Sort
   - Quick Sort
