@@ -23,8 +23,10 @@ $ npm install
 ## Run Tests
 
 ```bash
-$ npm run test # Run all the tests using NPM
+$ npm test # Run all the tests using NPM
+$ npm test -- --runInBand # Run all the tests in a single process using NPM
 $ npx jest # Run all the tests
+$ npx jest --runInBand # Run all the tests in a single process
 $ npx jest ./src/example.test.ts # Run the specified test
 ```
 
