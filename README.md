@@ -12,6 +12,7 @@ Data Structures and Algorithms in TypeScript.
   - [Insertion Sort](./src/sorting/insertion_sort/)
   - [Selection Sort](./src/sorting/selection_sort/)
   - [Merge Sort](./src/sorting/merge_sort/)
+  - [QuickSort](./src/sorting/quick_sort/)
 
 ## Install Dependencies
 
@@ -22,12 +23,14 @@ $ npm install
 ## Run Tests
 
 ```bash
-$ npm run test
+$ npm run test # Run all the tests using NPM
+$ npx jest # Run all the tests
+$ npx jest ./src/example.test.ts # Run the specified test
 ```
 
 ## Run `*.ts` Files
 
 ```bash
 $ npm install -g ts-node
-$ ts-node --esm ./src/sroting/bubble_sort/bubbleSort.ts
+$ ts-node --esm ./src/sorting/bubble_sort/bubbleSort.ts
 ```
