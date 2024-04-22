@@ -1,4 +1,4 @@
-export class StackWithFixedSizeArray<T> {
+export class StackWithStaticArray<T> {
     private stack: T[];
     private maxSize: number;
     private head: number;

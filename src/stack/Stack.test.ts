@@ -1,6 +1,6 @@
 import { StackWithDynamicArray } from "./StackWithDynamicArray";
 import { StackWithLinkedList } from "./StackWithLinkedList";
-import { StackWithFixedSizeArray } from "./StackWithFixedSizeArray";
+import { StackWithStaticArray } from "./StackWithStaticArray";
 
 describe("Stack with dynamic array", () => {
     it("Should create a stack containing three elements", () => {
@@ -88,7 +88,7 @@ describe("Stack with linked list", () => {
 
 describe("Stack with fixed-size array", () => {
     it("Should create a stack with three elements", () => {
-        let stack: StackWithFixedSizeArray<number> = new StackWithFixedSizeArray(10);
+        let stack: StackWithStaticArray<number> = new StackWithStaticArray(10);
         stack.push(3);
         stack.push(2);
         stack.push(1);
@@ -98,7 +98,7 @@ describe("Stack with fixed-size array", () => {
     });
 
     it("Should push and pop elements following LIFO principle", () => {
-        let stack: StackWithFixedSizeArray<number> = new StackWithFixedSizeArray(10);
+        let stack: StackWithStaticArray<number> = new StackWithStaticArray(10);
         stack.push(3);
         stack.push(2);
         stack.push(1);
@@ -118,7 +118,7 @@ describe("Stack with fixed-size array", () => {
     });
 
     it("Should prevent adding more elements when stack is full", () => {
-        let stack: StackWithFixedSizeArray<number> = new StackWithFixedSizeArray(3);
+        let stack: StackWithStaticArray<number> = new StackWithStaticArray(3);
         stack.push(3);
         stack.push(2);
         stack.push(1);
@@ -131,7 +131,7 @@ describe("Stack with fixed-size array", () => {
     });
 
     it("Should prevent popping from an empty stack", () => {
-        let stack: StackWithFixedSizeArray<number> = new StackWithFixedSizeArray(3);
+        let stack: StackWithStaticArray<number> = new StackWithStaticArray(3);
 
         expect(stack.isEmpty()).toBeTruthy();
         

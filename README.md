@@ -3,7 +3,24 @@
 Data Structures and Algorithms in TypeScript.
 
 - Data Structures
+  - Array
+  - Linked List
+    - [Singly Linked List](./src/linked_list/singly_linked_list/)
+    - Doubly Linked List
+    - Circular Linked List
+    - Multi-Level Linked List
+    - Skip List
   - [Stack](./src/stack/)
+  - Queue
+    - [Simple Queue](./src/queue/simple_queue/)
+    - [Priority Queue](./src/queue/priority_queue/)
+  - Tree
+  - Graph
+  - Hash Table
+  - Heaps
+  - Tries
+  - Sets
+  - Maps (Associative Arrays)
 - Searching
   - [Linear Search](./src/searching/linear_search/)
   - [Binary Search](./src/searching/binary_search/)
