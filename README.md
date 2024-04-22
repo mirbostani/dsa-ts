@@ -17,10 +17,12 @@ Data Structures and Algorithms in TypeScript.
   - Tree
   - Graph
   - Hash Table
-  - Heaps
-  - Tries
-  - Sets
-  - Maps (Associative Arrays)
+  - [Heap](./src/heap/)
+    - [Max-Heap](./src/heap/)
+    - Min-Heap
+  - Trie
+  - Set
+  - Map (Associative Arrays)
 - Searching
   - [Linear Search](./src/searching/linear_search/)
   - [Binary Search](./src/searching/binary_search/)
